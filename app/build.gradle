@@ -35,4 +35,13 @@ dependencies {
     implementation "com.google.dagger:dagger-android-support:$project.dagger_version"
 
     annotationProcessor "com.google.dagger:dagger-android-processor:$dagger_version"
+
+    //retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+
+    //okhttp
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp_version"
+    implementation "com.squareup.okhttp:okhttp:$okhttp3_version"
+
 }

@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         WeatherViewModel weatherViewModel = new WeatherViewModel();
         activityMainBinding.setViewModel(weatherViewModel);
+//        weatherViewModel.init();
     }
 
 }

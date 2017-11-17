@@ -23,8 +23,10 @@ allprojects {
 }
 
 project.ext {
-    // …
     dagger_version = "2.11"
+    retrofit_version = "2.3.0"
+    okhttp_version = "3.8.1"
+    okhttp3_version = "2.5.0"
 }
 
 task clean(type: Delete) {

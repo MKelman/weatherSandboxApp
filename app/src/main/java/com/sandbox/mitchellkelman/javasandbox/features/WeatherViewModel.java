@@ -9,21 +9,6 @@ public class WeatherViewModel implements ViewModel {
 
     }
 
-
-//    public void init() {
-//        try {
-//            Response<List<String>> execute = weatherInformationService.getInfo().execute();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
-
-//    private WeatherObject weatherObject;
-
-//    public WeatherViewModel(WeatherObject weatherObject) {
-//        this.weatherObject = weatherObject;
-//    }
-
     public String getText() {
         return "blah balh";
     }
