@@ -19,7 +19,7 @@ public class App extends Application {
 
         dataComponent = DaggerDataComponent.builder()
                 .appModule(new AppModule(this))
-                .dataModule(new DataModule("https://weather.com"))
+                .dataModule(new DataModule("api.openweathermap.org/data/2.5"))
                 .build();
     }
 
